@@ -1,0 +1,4 @@
+# task
+a="c:\\users\\admin\\aa.txt"
+b=a.rsplit('\\',1)
+print(b[0])
