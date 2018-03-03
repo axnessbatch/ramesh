@@ -1,0 +1,19 @@
+#3q sum of possitive  even and odd and negitive numbers. 
+l = [2,-4,3,6,7,-8,10,15,-18,20]
+neg = 0
+pos = 0
+odd = 0
+for i in l:
+    if(i<0):
+        neg = neg + i
+        
+    elif(i%2==0):
+        pos = pos + i
+        
+    else:
+        odd = odd + i
+print("negative numbers sum",neg)
+print("positive even numbers sum",pos)
+print("positive odd numbers sum",odd)
+        
+        
